@@ -1114,9 +1114,9 @@ h1, h2, h3 {
 
 .sub-header, time {
   margin-top: -5px;
-  color: #7a5079;
   margin-bottom: 2rem; }
   .sub-header small, time small {
+    color: #7a5079;
     line-height: 110%;
     font-size: small; }
   .sub-header .description, time .description {

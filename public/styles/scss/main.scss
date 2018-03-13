@@ -125,9 +125,9 @@ h1, h2, h3 {
 }
 .sub-header, time {
   margin-top: -5px;
-  color: $storm;
   margin-bottom: $vertical-rhythm;
   small {
+    color: $storm;
     line-height: 110%;
     font-size: small;
   }
