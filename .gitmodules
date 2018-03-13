@@ -1,0 +1,3 @@
+[submodule "themes/bold-theme"]
+	path = themes/bold-theme
+	url = https://github.com/deletescape/bold-theme

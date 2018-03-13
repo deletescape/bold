@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Galleries on deletescape</title>
+    <link>file:///E:/website/bold/public/gallery/</link>
+    <description>Recent content in Galleries on deletescape</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 13 Mar 2018 16:40:42 +0100</lastBuildDate>
+    
+	<atom:link href="file:///E:/website/bold/public/gallery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>dogbin</title>
+      <link>file:///E:/website/bold/public/gallery/dogbin/</link>
+      <pubDate>Tue, 13 Mar 2018 16:40:42 +0100</pubDate>
+      
+      <guid>file:///E:/website/bold/public/gallery/dogbin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lawnchair Launcher</title>
+      <link>file:///E:/website/bold/public/gallery/lawnchair/</link>
+      <pubDate>Tue, 13 Mar 2018 16:10:42 +0100</pubDate>
+      
+      <guid>file:///E:/website/bold/public/gallery/lawnchair/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

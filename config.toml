@@ -1,0 +1,51 @@
+title = "deletescape"
+baseURL = "https://deletescape.ch"
+tags = ["portfolio", "development", "blog"]
+languageCode = "en-US"
+config = "config.toml"
+theme = "bold-theme"
+canonifyURLS = true
+googleAnalytics = ""
+disqusShortname = "deletescape"
+disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
+
+[Params]
+    tagline = "creativity first."
+    author = "deletescape"
+    description = "Android developer, memer and photographer based in Lucerne, Switzerland."
+    logoBig = "/images/deletescape-logo-bold@4x.png"
+    logoSmall = "/images/deletescape-logo-bold@2x.png"
+    favicon = "favicon.ico"
+    opengraphImage = "/images/osprey.png"
+    twitter = "deletescape"
+    linkedin = ""
+    github = "deletescape"
+    facebook = ""
+    telegram = "deletescape"
+    instagram = "deletescape"
+    email = "deletescape@gmail.com"
+    googleTagManager = ""
+    highlightJS = false
+    copyright = true
+    credit = true
+    customCSS = false
+    cacheBustCSS = false
+    cacheBustJS = false
+    ajaxFormspree = true
+
+[[menu.main]]
+    name = "About"
+    url  = "/#about"
+    weight = 1
+[[menu.main]]
+    name = "Work"
+    url  = "/#work"
+    weight = 2
+[[menu.main]]
+    name = "Blog"
+    url  = "/#blog"
+    weight = 3
+[[menu.main]]
+    name = "Contact"
+    url  = "/#contact"
+    weight = 4
