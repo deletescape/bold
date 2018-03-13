@@ -113,6 +113,7 @@ p {
 h1, h2, h3 {
   font-family: $font-header;
   margin-top: $vertical-rhythm;
+  line-height: 110%;
   letter-spacing: 2px;
   a {
     text-decoration: none;
@@ -123,9 +124,18 @@ h1, h2, h3 {
   margin: 0 0 $vertical-rhythm;
 }
 .sub-header, time {
-  @include size(p);
+  margin-top: -5px;
   color: $storm;
   margin-bottom: $vertical-rhythm;
+  small {
+    line-height: 110%;
+    font-size: small;
+  }
+  .description {
+    line-height: 110%;
+    font-style: italic;
+    color: $storm-darker;
+  }
 }
 .content {
   text-align: left;

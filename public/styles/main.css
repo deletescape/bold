@@ -907,7 +907,6 @@ header {
     font-family: "Muli", "Helvetica", Arial, sans-serif;
     font-style: italic; }
   header .cursor {
-    font-style: normal;
     animation: 1s blink step-end infinite; }
 
 strong {
@@ -927,7 +926,7 @@ a {
   a img {
     border: 0; }
   a:hover {
-    color: #DA784D; }
+    color: #FF4081; }
 
 pre {
   margin-top: 0;
@@ -979,7 +978,7 @@ q::after {
   content: "\201D"; }
 
 blockquote::before, blockquote::after {
-  color: #DA784D;
+  color: #FF4081;
   font-family: "Muli", "Roboto Slab", "Cambria", Georgia, serif;
   font-size: 35px;
   content: '\201C'; }
@@ -1079,7 +1078,7 @@ nav {
   .nav-full a {
     color: #FFF; }
     .nav-full a:hover {
-      color: #DA784D; }
+      color: #FF4081; }
 
 .nav-full.active {
   transform: translate(-100vw, 0px); }
@@ -1105,6 +1104,7 @@ p {
 h1, h2, h3 {
   font-family: "Muli", "Roboto Slab", "Cambria", Georgia, serif;
   margin-top: 2rem;
+  line-height: 110%;
   letter-spacing: 2px; }
   h1 a, h2 a, h3 a {
     text-decoration: none; }
@@ -1113,15 +1113,16 @@ h1, h2, h3 {
   margin: 0 0 2rem; }
 
 .sub-header, time {
-  font-size: 1.25rem;
-  color: #4E6B6C;
+  margin-top: -5px;
+  color: #7a5079;
   margin-bottom: 2rem; }
-  @media (max-width: 48em) {
-    .sub-header, time {
-      font-size: 1.25rem; } }
-  @media (max-width: 25em) {
-    .sub-header, time {
-      font-size: 1.1rem; } }
+  .sub-header small, time small {
+    line-height: 110%;
+    font-size: small; }
+  .sub-header .description, time .description {
+    line-height: 110%;
+    font-style: italic;
+    color: #7c677c; }
 
 .content {
   text-align: left;
@@ -1130,13 +1131,13 @@ h1, h2, h3 {
     margin-left: 3px; }
   .content a {
     text-shadow: 0.03em 0 #fff, -0.03em 0 #fff, 0 0.03em #fff, 0 -0.03em #fff, 0.06em 0 #fff, -0.06em 0 #fff, 0.09em 0 #fff, -0.09em 0 #fff, 0.12em 0 #fff, -0.12em 0 #fff, 0.15em 0 #fff, -0.15em 0 #fff, 0.03em 0.075em #fff, -0.03em 0.075em #fff, 0.06em 0.075em #fff, -0.06em 0.075em #fff, 0.09em 0.075em #fff, -0.09em 0.075em #fff, 0.12em 0.075em #fff, -0.12em 0.075em #fff, 0.15em 0.075em #fff, -0.15em 0.075em #fff;
-    background-image: linear-gradient(#DA784D, #DA784D);
+    background-image: linear-gradient(#FF4081, #FF4081);
     background-size: 1px 2px;
     background-repeat: repeat-x;
     background-position: 0 95%;
     text-decoration: none; }
     .content a:hover {
-      color: #DA784D; }
+      color: #FF4081; }
 
 .highlight {
   margin: 10px 0; }
@@ -1166,13 +1167,13 @@ h1, h2, h3 {
         font-size: 1.375rem; } }
   .about a {
     text-shadow: 0.03em 0 #fff, -0.03em 0 #fff, 0 0.03em #fff, 0 -0.03em #fff, 0.06em 0 #fff, -0.06em 0 #fff, 0.09em 0 #fff, -0.09em 0 #fff, 0.12em 0 #fff, -0.12em 0 #fff, 0.15em 0 #fff, -0.15em 0 #fff, 0.03em 0.075em #fff, -0.03em 0.075em #fff, 0.06em 0.075em #fff, -0.06em 0.075em #fff, 0.09em 0.075em #fff, -0.09em 0.075em #fff, 0.12em 0.075em #fff, -0.12em 0.075em #fff, 0.15em 0.075em #fff, -0.15em 0.075em #fff;
-    background-image: linear-gradient(#DA784D, #DA784D);
+    background-image: linear-gradient(#FF4081, #FF4081);
     background-size: 2px 3px;
     background-repeat: repeat-x;
     background-position: 0 95%;
     text-decoration: none; }
     .about a:hover {
-      color: #DA784D; }
+      color: #FF4081; }
 
 .gallery div[class^="col-"], .gallery div[class*=" col-"] {
   padding: 0;
@@ -1196,7 +1197,7 @@ h1, h2, h3 {
   .overlay a {
     color: #FFF; }
     .overlay a:hover {
-      color: #DA784D; }
+      color: #FF4081; }
   .overlay h2 {
     color: #FFF; }
   .overlay h3 {
@@ -1237,11 +1238,11 @@ input, textarea {
   margin: 8px 0;
   width: 100%; }
   input[type="submit"], textarea[type="submit"] {
-    background-color: #4E6B6C;
+    background-color: #7a5079;
     color: #FFF;
     transition: .2s ease-out; }
     input[type="submit"]:hover, textarea[type="submit"]:hover {
-      background-color: #DA784D;
+      background-color: #FF4081;
       color: #FFF;
       cursor: pointer; }
 
