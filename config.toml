@@ -12,7 +12,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use 
 [Params]
     tagline = "creativity first."
     author = "deletescape"
-    description = "Android developer, memer and photographer based in Lucerne, Switzerland."
+    description = "coder, nerd and photographer from Lucerne, Switzerland."
     logoBig = "/images/deletescape-logo-bold@0.5x.png"
     logoSmall = "/images/deletescape-logo-bold@0.5x.png"
     favicon = "favicon.ico"
